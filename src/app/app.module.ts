@@ -7,11 +7,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { HeaderComponent } from './components/header/header.component';
 import { MatCardModule } from '@angular/material/card';
-import { ChartsModule } from 'ng2-charts';
+import { ChartsModule, ThemeService } from 'ng2-charts';
 import { MatTableModule } from '@angular/material/table';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MediaMatcher } from '@angular/cdk/layout';
-import { FormsModule } from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 
 
 import {
@@ -19,7 +19,7 @@ import {
   MatSidenavModule,
   MatButtonModule,
   MatIconModule,
-  MatListModule
+  MatListModule, MatAutocompleteModule, MatFormFieldModule, MatInputModule
 } from '@angular/material';
 import { RecommendationComponent } from './components/recommendation/recommendation.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
@@ -30,6 +30,10 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
   ],
   imports: [
     BrowserModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatFormFieldModule,
+    MatInputModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatCardModule,
@@ -40,9 +44,9 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
     MatButtonModule,
     MatIconModule,
     MatListModule,
-    FormsModule
+    MatAutocompleteModule
   ],
-  providers: [MediaMatcher],
+  providers: [MediaMatcher, ThemeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
