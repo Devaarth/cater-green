@@ -16,7 +16,13 @@ export class LandingPageComponent implements OnInit {
     { data: [30, 40, 46, 75, 56, 55, 40, 45, 55, 65, 75, 85, 95], label: 'Series B' },
     { data: [20, 59, 70, 81, 56, 55, 40, 48, 32, 65, 74, 87, 23], label: 'Series C', borderColor: 'green' }
   ];
-  public lineChartLabels: Label[] = [
+  public lineChartLabelsYearly: Label[] = [
+    '2017',
+    '2018',
+    '2019',
+    '2020'
+  ];
+  public lineChartLabelsMonthly: Label[] = [
     'January',
     'February',
     'March',
@@ -29,6 +35,12 @@ export class LandingPageComponent implements OnInit {
     'October',
     'November',
     'Decemeber'
+  ];
+   public lineChartLabelsWeekly: Label[] = [
+    '1st week',
+    '2nd week',
+    '3rd week',
+    '4th week'
   ];
   public lineChartOptions: any = {
     responsive: true
@@ -59,11 +71,11 @@ export class LandingPageComponent implements OnInit {
   //Table data
 
   public ELEMENT_DATA: any[] = [
-    { position: 1, name: 'Hydrogen', weight: 1.0079, symbol: 'H' },
-    { position: 2, name: 'Helium', weight: 4.0026, symbol: 'He' },
-    { position: 3, name: 'Lithium', weight: 6.941, symbol: 'Li' },
-    { position: 4, name: 'Beryllium', weight: 9.0122, symbol: 'Be' },
-    { position: 5, name: 'Boron', weight: 10.811, symbol: 'B' }
+    { position: 1, name: 'Meat Products', weight: 10 , unit: 'kg/mt' },
+    { position: 2, name: 'Dairy Products', weight: 8, unit: 'kg/mt' },
+    { position: 3, name: 'Plastic Cuttlery', weight: 25, unit: 'kg/mt' },
+    { position: 4, name: 'Non Recyclabe containers', weight: 20, unit: 'kg/mt' },
+    { position: 5, name: 'Other', weight: 10, unit: 'kg/mt' }
   ];
   public displayedColumns: any;
   public dataSource;
@@ -71,7 +83,7 @@ export class LandingPageComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.displayedColumns = ['position', 'name', 'weight', 'symbol'];
+    this.displayedColumns = ['position', 'name', 'weight', 'unit'];
     this.dataSource = this.ELEMENT_DATA;
   }
 
