@@ -10,7 +10,6 @@ import { MatCardModule } from '@angular/material/card';
 import { ChartsModule, ThemeService } from 'ng2-charts';
 import { MatTableModule } from '@angular/material/table';
 import { MatTabsModule } from '@angular/material/tabs';
-import { SideNavComponent } from './components/side-nav/side-nav.component';
 import { MediaMatcher } from '@angular/cdk/layout';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 
@@ -27,7 +26,7 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent, HeaderComponent, SideNavComponent, RecommendationComponent, LandingPageComponent
+    DashboardComponent, HeaderComponent, RecommendationComponent, LandingPageComponent
   ],
   imports: [
     BrowserModule,
