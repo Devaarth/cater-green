@@ -3,10 +3,10 @@
     <mat-nav-list>
       <img src="../../../assets/images/plant.jpg" alt="plant image" class="plant-img">
       <div style="padding-top: 20px;">
-        <a mat-list-item [routerLink]="'/landing'" class="list-item" >
+        <a mat-list-item [routerLink]="'/landing'" class="list-item" (click)="onToggleClose()">
           <mat-icon class="nav-icons">home</mat-icon> <span>Home</span>
         </a>
-        <a mat-list-item [routerLink]="'/recom'" class="list-item" >
+        <a mat-list-item [routerLink]="'/recom'" class="list-item" (click)="onToggleClose()">
           <mat-icon class="nav-icons">bar_chart</mat-icon><span>Recommendation</span>
         </a>
       </div>
