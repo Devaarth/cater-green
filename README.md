@@ -14,7 +14,7 @@ Our application “Cater Green” will help restaurant owners to monitor, estima
 
 
 DEMO VIDEO:
-LINK----------------
+LINK-: https://youtu.be/NTo7pGclcz0
 
 # The architecture:
 
