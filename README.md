@@ -17,7 +17,7 @@ LINK----------------
 
 # The architecture:
 
-![image](https://user-images.githubusercontent.com/5557339/122586293-1f05e680-d07a-11eb-8a03-20fd5cecb2c3.png)
+![MicrosoftTeams-image (3)](https://user-images.githubusercontent.com/5557339/122588371-a3596900-d07c-11eb-9704-930d171d5cb0.png)
 
 CaterGreen is an application not serving green food but the serving food in a way that helps sustain the green on our planet and so reduce vulnerability to climate impacts. 
 It helps a restaurant owner monitor, estimate and reduce the carbon emissions per order intake via recommending – 
