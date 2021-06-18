@@ -62,7 +62,7 @@ It helps a restaurant owner monitor, estimate and reduce the carbon emissions pe
 
 In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
 
-# RestaurantCarbonCheck
+# Cater Green
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.3.
 
