@@ -22,7 +22,7 @@
         <mat-card-content>
 
           <div class="charts-first-row">
-            <canvas baseChart [datasets]="lineChartData" [labels]="lineChartLabelsYearly" [options]="lineChartOptions"
+            <canvas baseChart [datasets]="lineChartDataYearly" [labels]="lineChartLabelsYearly" [options]="lineChartOptions"
               [colors]="lineChartColors" [legend]="lineChartLegend" [chartType]="lineChartType">
             </canvas>
           </div>
@@ -45,7 +45,7 @@
         <mat-card-content>
 
           <div class="charts-first-row">
-            <canvas baseChart [datasets]="lineChartData" [labels]="lineChartLabelsMonthly" [options]="lineChartOptions"
+            <canvas baseChart [datasets]="lineChartDataMonthly" [labels]="lineChartLabelsMonthly" [options]="lineChartOptions"
               [colors]="lineChartColors" [legend]="lineChartLegend" [chartType]="lineChartType">
             </canvas>
           </div>
@@ -67,7 +67,7 @@
         <mat-card-content>
 
           <div class="charts-first-row">
-            <canvas baseChart [datasets]="lineChartData" [labels]="lineChartLabelsWeekly" [options]="lineChartOptions"
+            <canvas baseChart [datasets]="lineChartDataWeekly" [labels]="lineChartLabelsWeekly" [options]="lineChartOptions"
               [colors]="lineChartColors" [legend]="lineChartLegend" [chartType]="lineChartType">
             </canvas>
           </div>

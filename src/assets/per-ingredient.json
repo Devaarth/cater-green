@@ -1,0 +1,129 @@
+[
+    {
+        "Order": "Alfredo Chicken Pasta",
+        "Ingredient": "pasta",
+        "Carbon Content": "8.8285966",
+        "Recommended Ingredient": "null",
+        "Carbon Content (of recommended)": "0",
+        "Reduction Achieved": "0",
+        "Order_No" : "1"
+    },
+    {
+        "Order": "",
+        "Ingredient": "chicken",
+        "Carbon Content": "16.31149016",
+        "Recommended Ingredient": "beans(chunk)",
+        "Carbon Content (of recommended)": "5.799452",
+        "Reduction Achieved": "10.51203816",
+        "Order_No" : "1"
+        
+    },
+    {
+        "Order": "",
+        "Ingredient": "cheese",
+        "Carbon Content": "61.75",
+        "Recommended Ingredient": "mayonnaise",
+        "Carbon Content (of recommended)": "9.75",
+        "Reduction Achieved": "52",
+        "Order_No" : "1"
+    },
+    {
+        "Order": "",
+        "Ingredient": "milk",
+        "Carbon Content": "6.84677275",
+        "Recommended Ingredient": "null",
+        "Carbon Content (of recommended)": "0",
+        "Reduction Achieved": "0",
+        "Order_No" : "1"
+    },
+    {
+        "Order": "",
+        "Ingredient": "bell pepper",
+        "Carbon Content": "11.65",
+        "Recommended Ingredient": "null",
+        "Carbon Content (of recommended)": "0",
+        "Reduction Achieved": "0",
+        "Order_No" : "1"
+    },
+    {
+        "Order": "Chocolate Milkshake",
+        "Ingredient": "cocoa powder",
+        "Carbon Content": "22.2",
+        "Recommended Ingredient": "biscuits",
+        "Carbon Content (of recommended)": "5.521375",
+        "Reduction Achieved": "16.678625",
+        "Order_No" : "2"
+    },
+    {
+        "Order": "",
+        "Ingredient": "milk",
+        "Carbon Content": "6.84677275",
+        "Recommended Ingredient": "null",
+        "Carbon Content (of recommended)": "0",
+        "Reduction Achieved": "0",
+        "Order_No" : "2"
+    },
+    {
+        "Order": "",
+        "Ingredient": "chocolate",
+        "Carbon Content": "34.28439552",
+        "Recommended Ingredient": "null",
+        "Carbon Content (of recommended)": "0",
+        "Reduction Achieved": "0",
+        "Order_No" : "2"
+    },
+    {
+        "Order": "",
+        "Ingredient": "sugar",
+        "Carbon Content": "7.615827305",
+        "Recommended Ingredient": "null",
+        "Carbon Content (of recommended)": "0",
+        "Reduction Achieved": "0",
+        "Order_No" : "2"
+    },
+    {
+        "Order": "Russian Salad",
+        "Ingredient": "Broccoli",
+        "Carbon Content": "3.15",
+        "Recommended Ingredient": "Cauliflower",
+        "Carbon Content (of recommended)": "2.65",
+        "Reduction Achieved": "0.5",
+        "Order_No" : "3"
+    },
+    {
+        "Order": "",
+        "Ingredient": "Carrot",
+        "Carbon Content": "1.5",
+        "Recommended Ingredient": "null",
+        "Carbon Content (of recommended)": "0",
+        "Reduction Achieved": "0",
+        "Order_No" : "3"
+    },
+    {
+        "Order": "",
+        "Ingredient": "Avocado",
+        "Carbon Content": "5.45",
+        "Recommended Ingredient": "null",
+        "Carbon Content (of recommended)": "0",
+        "Reduction Achieved": "0",
+        "Order_No" : "3"
+    },
+    {
+        "Order": "",
+        "Ingredient": "Leek",
+        "Carbon Content": "2",
+        "Recommended Ingredient": "Onion",
+        "Carbon Content (of recommended)": "1.905",
+        "Reduction Achieved": "0.095",
+        "Order_No" : "3"
+    },
+    {
+        "Order": "",
+        "Ingredient": "Icebur Lettuce",
+        "Carbon Content": "1.61323829",
+        "Recommended Ingredient": "White Cabbage",
+        "Carbon Content (of recommended)": "1.45",
+        "Reduction Achieved": "0.16323829",
+        "Order_No" : "3"
+    }
+]
