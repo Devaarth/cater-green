@@ -23,10 +23,12 @@ import {
 } from '@angular/material';
 import { RecommendationComponent } from './components/recommendation/recommendation.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
+import { CommonTableComponent } from './components/common-table/common-table.component';
+import {CdkTableModule} from '@angular/cdk/table';
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent, HeaderComponent, RecommendationComponent, LandingPageComponent
+    DashboardComponent, HeaderComponent, RecommendationComponent, LandingPageComponent, CommonTableComponent
   ],
   imports: [
     BrowserModule,
@@ -44,7 +46,8 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
     MatButtonModule,
     MatIconModule,
     MatListModule,
-    MatAutocompleteModule
+    MatAutocompleteModule,
+    CdkTableModule
   ],
   providers: [MediaMatcher, ThemeService],
   bootstrap: [AppComponent]
