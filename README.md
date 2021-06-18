@@ -50,9 +50,9 @@ Every small reduction in these emissions will, in the long run, count big toward
 
 CaterGreen is an application not serving green food but the serving food in a way that helps sustain the green on our planet and so reduce vulnerability to climate impacts. 
 It helps a restaurant owner monitor, estimate and reduce the carbon emissions per order intake via recommending – 
-4.	Substitute ingredients that has low carbon emission
-5.	Providing information to procure food locally 
-6.	Use environment friendly packaging.
+1.	Substitute ingredients that has low carbon emission
+2.	Providing information to procure food locally 
+3.	Use environment friendly packaging.
 
 # Project roadmap
 ![image](https://user-images.githubusercontent.com/5557339/122586235-0ac1e980-d07a-11eb-9770-f79e4973c327.png)
