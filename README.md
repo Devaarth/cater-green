@@ -11,15 +11,14 @@ Our application “Cater Green” will help restaurant owners to monitor, estima
 1.	Substitute ingredients that has low carbon emission
 2.	Providing information to procure food locally 
 3.	Use environment friendly packaging.
-4.	
+
+
 DEMO VIDEO:
 LINK----------------
 
 # The architecture:
 
 ![MicrosoftTeams-image (3)](https://user-images.githubusercontent.com/5557339/122588371-a3596900-d07c-11eb-9704-930d171d5cb0.png)
-
-Global navigation![image](https://user-images.githubusercontent.com/5557339/122593396-3b5a5100-d083-11eb-8159-cc2d916a945d.png)
 
 
 CaterGreen is an application not serving green food but the serving food in a way that helps sustain the green on our planet and so reduce vulnerability to climate impacts. 
