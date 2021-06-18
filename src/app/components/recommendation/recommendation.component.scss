@@ -2,6 +2,28 @@ table {
   width: 100%;
 }
 
+.card-spacing{
+  padding: 1%;
+  margin: 3% 5%;
+}
+.card-search-spacing{
+  margin: 1% 5%;
+}
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+.bg-color{
+  background-color: palegreen;
+}
+
+
 .card-spacing {
   margin-top: 2%;
 }
@@ -53,8 +75,8 @@ table {
   margin-top: 4%;
 }
 .link-card-content {
-  height: 65vh;
-  overflow: auto;
+  //height: 65vh;
+  //overflow: auto;
   margin-bottom: 5%;
 }
 .recommendation-table{
