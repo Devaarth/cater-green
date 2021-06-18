@@ -18,6 +18,7 @@ LINK----------------
 # The architecture:
 
 ![MicrosoftTeams-image (3)](https://user-images.githubusercontent.com/5557339/122588371-a3596900-d07c-11eb-9704-930d171d5cb0.png)
+
 Global navigation![image](https://user-images.githubusercontent.com/5557339/122593396-3b5a5100-d083-11eb-8159-cc2d916a945d.png)
 
 
