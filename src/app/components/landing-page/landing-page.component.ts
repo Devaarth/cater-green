@@ -10,12 +10,23 @@ import { analyzeAndValidateNgModules } from '@angular/compiler';
   styleUrls: ['./landing-page.component.scss']
 })
 export class LandingPageComponent implements OnInit {
-  //Line chart 
-  public lineChartData: ChartDataSets[] = [
-    { data: [65, 59, 80, 81, 56, 55, 40, 50, 60, 70, 80, 90], label: 'Series A' },
-    { data: [30, 40, 46, 75, 56, 55, 40, 45, 55, 65, 75, 85, 95], label: 'Series B' },
-    { data: [20, 59, 70, 81, 56, 55, 40, 48, 32, 65, 74, 87, 23], label: 'Series C', borderColor: 'green' }
+
+  public lineChartDataYearly: ChartDataSets[] = [
+    { data: [400, 410, 430, 470, 500, 490, 580], label: 'CarbonContentPerIngredient' },
+    { data: [80, 85, 80, 100, 110, 120, 130], label: 'CarbonContentPerPackagingMat' },
+    { data: [200, 210, 220, 230, 244, 250, 280], label: 'CarbonContentPerTransportMode' }
   ];
+  public lineChartDataMonthly: ChartDataSets[] = [
+    { data: [54, 63, 45, 54, 50, 60, 50, 55, 63, 40, 65, 98], label: 'CarbonContentPerIngredient' },
+    { data: [9, 7, 4, 9, 6, 10, 7, 11, 18, 5, 19, 11], label: 'CarbonContentPerPackagingMat' },
+    { data: [18, 14, 8, 18, 12, 20, 14, 9, 13, 8, 19], label: 'CarbonContentPerTransportMode' }
+  ]
+  public lineChartDataWeekly: ChartDataSets[] = [
+    { data: [1, 1.2, 1.4, 1.5, 1.7, 1.6, 1.8], label: 'CarbonContentPerIngredient' },
+    { data: [0.2, 0.4, 0.3, 0.6, 0.5, 0.7, 0.8], label: 'CarbonContentPerPackagingMat' },
+    { data: [0.02, 0.04, 0.03, 0.06, 0.05, 0.07, 0.08], label: 'CarbonContentPerTransportMode' }
+  ];
+  public lineChartLabels: Label[] = ['2015', '2016', '2017', '2018', '2019', '2020', '2021'];
   public lineChartLabelsYearly: Label[] = [
     '2017',
     '2018',
@@ -36,7 +47,7 @@ export class LandingPageComponent implements OnInit {
     'November',
     'Decemeber'
   ];
-   public lineChartLabelsWeekly: Label[] = [
+  public lineChartLabelsWeekly: Label[] = [
     '1st week',
     '2nd week',
     '3rd week',
@@ -62,19 +73,17 @@ export class LandingPageComponent implements OnInit {
   public barChartLegend = true;
 
   public barChartData: ChartDataSets[] = [
-    { data: [5, 15, 34, 87, 2], label: 'Transport', stack: 'a', barThickness: 20 },
-    { data: [20, 40, 67, 98, 98], label: 'Ingredients', stack: 'a', barThickness: 20 },
-    { data: [40, 60, 39, 38, 12], label: 'XYZ', stack: 'a', barThickness: 20 },
+    { data: [39, 20, 13, 16, 9], label: 'Ingredients', stack: 'a', barThickness: 20 }
   ];
   public barChartLabels: string[] = ['Beef', 'Lamb', 'Dairy', 'Tofu', 'Peas'];
 
   //Table data
 
   public ELEMENT_DATA: any[] = [
-    { position: 1, name: 'Meat Products', weight: 10 , unit: 'kg/mt' },
+    { position: 1, name: 'Meat Products', weight: 18, unit: 'kg/mt' },
     { position: 2, name: 'Dairy Products', weight: 8, unit: 'kg/mt' },
-    { position: 3, name: 'Plastic Cuttlery', weight: 25, unit: 'kg/mt' },
-    { position: 4, name: 'Non Recyclabe containers', weight: 20, unit: 'kg/mt' },
+    { position: 3, name: 'Vegetables and oils', weight: 11, unit: 'kg/mt' },
+    { position: 4, name: 'Fruits', weight: 6, unit: 'kg/mt' },
     { position: 5, name: 'Other', weight: 10, unit: 'kg/mt' }
   ];
   public displayedColumns: any;

@@ -2,14 +2,14 @@ table {
   width: 100%;
 }
 
-.card-spacing{
-  padding: 1%;
-  margin: 3% 5%;
+.card-spacing {
+  margin-top: 2%;
 }
-.card-search-spacing{
-  margin: 1% 5%;
+.card-search-spacing {
 }
 
+.card-links {
+}
 .example-form {
   min-width: 150px;
   max-width: 500px;
@@ -19,7 +19,49 @@ table {
 .example-full-width {
   width: 100%;
 }
-.bg-color{
-  background-color: palegreen;
+.bg-color {
+  background-color: white;
+}
+.fragment {
+  font-size: 12px;
+  font-family: tahoma;
+  height: 140px;
+  border: 1px solid #ccc;
+  color: #555;
+  display: block;
+  padding: 10px;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
+.fragment:hover {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.fragment img {
+  float: left;
+  margin-right: 10px;
+}
+
+.fragment h3 {
+  padding: 0;
+  margin: 0;
+  color: #369;
+}
+
+.li-link-items {
+  margin-top: 4%;
+}
+.link-card-content {
+  height: 65vh;
+  overflow: auto;
+  margin-bottom: 5%;
+}
+.recommendation-table{
+  height: 600px;
+  overflow: auto;
+}
+.link-avatar{
+  width: 90px;
+  height: 120px;
+}

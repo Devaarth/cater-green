@@ -29,14 +29,14 @@ const ELEMENT_DATA: PeriodicElement[] = [
 })
 export class RecommendationComponent implements OnInit {
   displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
-  dataSource = [];
+  dataSource = ELEMENT_DATA;
 
   myControl = new FormControl();
   options: string[] = ['One', 'Two', 'Three'];
   constructor(private fb: FormBuilder) { }
 
   ngOnInit() {
-    this.dataSource = ELEMENT_DATA.filter( (res: PeriodicElement) => res.name = this.myControl.value);
+    //this.dataSource = ELEMENT_DATA.filter( (res: PeriodicElement) => res.name = this.myControl.value);
   }
 
 
